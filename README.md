@@ -20,15 +20,15 @@
 |     ├── dotnet-hessian-client           # dubbo-charp-client  核心包
 |     ├── java-hessian-client
 |     └── java-hessian-server
-├── dubbo-service-demo            		#  测试demo
-|  └── packages          						  #  依赖组件
+├── dubbo-service-demo            		  #  测试demo
+|  └── packages          				  #  依赖组件
 |     ├── Dubbo.Service.1.0.0.6
 |     ├── KNET.Yqy.PubLibrary.1.0.1
 |     ├── log4net.1.2.10
 |     ├── sharpconfig.3.0.1
 |     ├── Wyying.HessianCSharp.1.0.0
 |     └── ZooKeeper.Net.3.4.6.2
-├── hessiancharp                     			#  hessiancharp 源码，略作调整
+├── hessiancharp                     	  #  hessiancharp 源码，略作调整
 ├── LICENSE
 ├── README.md
 ```
