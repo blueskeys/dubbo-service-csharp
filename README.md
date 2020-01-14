@@ -14,6 +14,7 @@
 
 1、目录结构
 
+```yaml
 ├── dubbo-service-csharp
 |  └── trunk
 |     ├── dotnet-hessian-client           # dubbo-charp-client  核心包
@@ -30,6 +31,9 @@
 ├── hessiancharp                     			#  hessiancharp 源码，略作调整
 ├── LICENSE
 ├── README.md
+```
+
+
 
 
 
