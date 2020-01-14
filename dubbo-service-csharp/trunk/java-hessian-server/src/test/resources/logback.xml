@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<property name="APP_NAME" value="yqy-pf-provider"/>
+	<property name="log_dir" value="logs/yqy-pf-provider"/>
+	<contextName>${APP_NAME}</contextName>
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<Pattern>%d [%thread] %level %mdc %logger[%line] - %msg%n</Pattern>
+		</encoder>
+	</appender>
+	<root>
+		<level value="debug"/>
+		<appender-ref ref="CONSOLE"/>
+	</root>
+	<logger name="com.eqying">
+		<level value="debug"/>
+	</logger>
+	<logger name="druid" additivity="false">
+		<level value="debug"/>
+		<appender-ref ref="SQL_ROLLING"/>
+	</logger>
+	<logger name="org.apache.ibatis">
+		<level value="info"/>
+	</logger>
+	<logger name="org.apache.http">
+		<level value="info"/>
+	</logger>
+	<logger name="jdbc.connection">
+		<level value="warn"/>
+	</logger>
+	<logger name="org.springframework">
+		<level value="info"/>
+	</logger>
+	<logger name="org.hibernate">
+		<level value="info"/>
+	</logger>
+	<logger name="org.jboss">
+		<level value="info"/>
+	</logger>
+	<logger name="org.mybatis.spring">
+		<level value="info"/>
+	</logger>
+	<logger name="com.alibaba.druid">
+		<level value="info"/>
+	</logger>
+	<logger name="com.alibaba.dubbo">
+		<level value="info"/>
+	</logger>
+</configuration>
+

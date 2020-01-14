@@ -1,0 +1,15 @@
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\dubbo-serviceTests.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\dubbo-serviceTests.pdb
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\dubbo-service.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\SharpConfig.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\log4net.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\Hessiancsharp.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\ZooKeeperNet.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\dubbo-service.pdb
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\SharpConfig.xml
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\log4net.xml
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\obj\Debug\dubbo-serviceTests.csprojResolveAssemblyReference.cache
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\obj\Debug\dubbo-serviceTests.dll
+D:\workspace2016\vs-workspace2016\lab\dubbo-demo\trunk\dotnet-hessian-client\dubbo-serviceTests\obj\Debug\dubbo-serviceTests.pdb

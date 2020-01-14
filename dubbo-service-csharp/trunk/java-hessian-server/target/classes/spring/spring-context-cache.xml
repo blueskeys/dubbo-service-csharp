@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"
+       default-lazy-init="true">
+    <description>Spring Configuration</description>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <!--redis-->
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="${redis.pool.maxTotal}"/>
+        <property name="minIdle" value="${redis.pool.minIdle}"/>
+        <property name="maxIdle" value="${redis.pool.maxIdle}"/>
+        <property name="minEvictableIdleTimeMillis" value="${redis.pool.minEvictableIdleTimeMillis}"/>
+        <property name="timeBetweenEvictionRunsMillis" value="${redis.pool.timeBetweenEvictionRunsMillis}"/>
+        <property name="testWhileIdle" value="${redis.pool.testWhileIdle}"/>
+    </bean>
+    <bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+        <constructor-arg name="poolConfig" ref="jedisPoolConfig"/>
+        <constructor-arg name="host"  value="${redis.server.ip}" type="java.lang.String"/>
+        <constructor-arg name="port" value="${redis.server.port}" type="int"/>
+        <constructor-arg name="timeout" value="${redis.server.timeout}"/>
+        <constructor-arg name="password" value="${redis.server.password}"/>
+    </bean>
+    <!--jedisICache-->
+    <bean id="jedisICache" class="com.eqying.basic.cache.redis.RedisCache" primary="true">
+        <property name="delegate" ref="jedisPool"/>
+        <property name="formatJson" value="false"/>
+    </bean>
+</beans>

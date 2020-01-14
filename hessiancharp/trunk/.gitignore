@@ -1,0 +1,10 @@
+
+_UpgradeReport_Files/
+Backup*
+bin/
+obj/
+TestResults/
+_ReSharper.*
+*.sln.ide
+*.suo
+*.csproj.user

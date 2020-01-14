@@ -1,0 +1,14 @@
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\dubbo.service.dll
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\dubbo.service.pdb
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\Hessiancsharp.dll
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\log4net.dll
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\SharpConfig.dll
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\ZooKeeperNet.dll
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\Hessiancsharp.pdb
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\log4net.xml
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\bin\Release\SharpConfig.xml
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\obj\Release\dubbo-service.csprojResolveAssemblyReference.cache
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\obj\Release\dubbo_service.Properties.Resources.resources
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\obj\Release\dubbo-service.csproj.GenerateResource.Cache
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\obj\Release\dubbo.service.dll
+D:\workspace2016\vs-workspace2016\dubbo-service-csharp\dubbo-service-csharp\trunk\dotnet-hessian-client\dubbo-service\obj\Release\dubbo.service.pdb

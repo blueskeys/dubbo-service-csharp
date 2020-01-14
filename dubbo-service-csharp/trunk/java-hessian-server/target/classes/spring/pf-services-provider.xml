@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ - Copyright 1999-2011 Alibaba Group.
+ -  
+ - Licensed under the Apache License, Version 2.0 (the "License");
+ - you may not use this file except in compliance with the License.
+ - You may obtain a copy of the License at
+ -  
+ -      http://www.apache.org/licenses/LICENSE-2.0
+ -  
+ - Unless required by applicable law or agreed to in writing, software
+ - distributed under the License is distributed on an "AS IS" BASIS,
+ - WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ - See the License for the specific language governing permissions and
+ - limitations under the License.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd"
+       default-lazy-init="false">
+
+    <dubbo:application name="${dubbo.application.name}" owner="${dubbo.application.owner}" organization="${dubbo.application.organization}"/>
+    <dubbo:registry protocol="${dubbo.registry.protocol}" address="${dubbo.registry.address}" client="${dubbo.registry.client}"
+                    register="${dubbo.registry.register:true}" subscribe="${dubbo.registry.subscribe:true}"/>
+    <!--uncomment this if you want to test dubbo's monitor-->
+    <dubbo:monitor protocol="registry"/>
+
+    <dubbo:provider retries="${dubbo.provider.reties}" timeout="${dubbo.provider.timeout}" validation="${dubbo.provider.validation}"/>
+
+    <!-- here we demonstrate both annotation-based and xml-based configs -->
+    <dubbo:annotation package="com.eqying.pf.service.provider.services" />
+    <!--<dubbo:service interface="com.eqying.pf.service.provider.api.UserServiceI"-->
+                   <!--ref="userService" path="http/userService" />-->
+
+    <dubbo:protocol name="hessian" port="8080" server="servlet" serialization="hessian2" />
+    <!--<dubbo:protocol name="hessian" port="${dubbo.dubboProtocol.port}" server="jetty" />-->
+
+    <dubbo:protocol id="dubbo" name="dubbo" server="netty" serialization="hessian2"
+                    port="${dubbo.dubboProtocol.port}"
+                    threads="${dubbo.provider.threadpool.size}"
+                    threadpool="cached"/>
+
+
+</beans>

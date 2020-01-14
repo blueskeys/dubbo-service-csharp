@@ -1,0 +1,23 @@
+﻿PredefineConfig（预置配置项）
+	AppSettings["PublishType"] = Release/Test
+Identity【基于日期生成主键】
+	DateTime.Now.Ticks
+
+1、读取配置文件（ConfigHelper）
+	依赖 config.ini 文件
+	BasePath 获取项目根目录
+2、IP白名单检查（IPWhiteHelper）
+	依赖 IPWhiteList.ini 文件
+	GetIPAddr() 获取客户IP地址
+3、JsonDateFormat
+	GetJson() 标准日期转换对象到Json
+4、CacheHelper
+	基于HttpRuntime.Cache的缓存服务
+5、LogHelper
+	基于Xlog的日志记录，可以写入数据库
+6、Web.ClientInfo
+	获取客户端信息
+7、Web.HttpClientExtend
+	HttpClient 扩展
+8、Web.OPlatformService（开放第三方平台接口）
+	SinaUrlShort() 生成新浪短地址
